@@ -27,3 +27,12 @@ It is composed by three files:
 ### Now, extend the example:
 
 Try adding other methods to the remote object and calling them from the client.
+
+
+--------------------------------------------------------------------------------------------------------
+Foi comentado o método original sayHello();
+Adição de um novo método remoto chamado eco(String mensagem): Esse método retorna a mesma mensagem recebida com o prefixo: "Você disse: ".
+Cliente modificado para chamar o novo método e exibir a resposta.
+
+
+
