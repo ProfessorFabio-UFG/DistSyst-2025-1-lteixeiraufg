@@ -35,11 +35,20 @@
  * intended for use in the design, construction, operation or
  * maintenance of any nuclear facility.
  */
+// package example.hello;
+
+// import java.rmi.Remote;
+// import java.rmi.RemoteException;
+
+// public interface Hello extends Remote {
+//     String sayHello() throws RemoteException;
+// }
+
 package example.hello;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
 public interface Hello extends Remote {
-    String sayHello() throws RemoteException;
+    String eco(String mensagem) throws RemoteException;
 }
